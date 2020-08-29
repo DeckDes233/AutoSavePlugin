@@ -1,0 +1,8 @@
+command-switch: true
+String-List1:
+  -  '世界正在保存！'
+String-List2:
+  -  '世界保存成功！'
+command-list:
+  - 'save-all'
+time(second): 1800

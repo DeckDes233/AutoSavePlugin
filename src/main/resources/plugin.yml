@@ -1,0 +1,7 @@
+name: Plugin
+version: ${project.version}
+main: pers.deckdes.plugin.Plugin
+api-version: 1.16
+authors: [DeckDes]
+description: An auto save plugin for minecraft 1.16.1
+website: https://github.com/DeckDes233
