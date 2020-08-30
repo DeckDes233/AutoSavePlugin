@@ -7,7 +7,7 @@ public final class Load extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        System.out.println("自动保存插件已启用！");
+        getLogger().info("自动保存插件已启用！");
 
         BukkitTask Auto = new AutoSave(this).runTaskTimer(this,0,getConfig().getInt("time(second)")*20);
 
@@ -16,7 +16,7 @@ public final class Load extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        System .out.println("自动保存插件已禁用！");
+        getLogger().info("自动保存插件已禁用！");
 
 
     }

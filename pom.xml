@@ -11,7 +11,7 @@
 
     <name>Plugin</name>
 
-    <description>An auto save plugin for minecraft 1.16.1</description>
+    <description>An auto save plugin for minecraft 1.16.2</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
